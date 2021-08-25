@@ -1,0 +1,114 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  background-color: hsl(222, 26%, 31%);
+  ;
+  
+}
+
+
+a {
+  text-decoration: none;
+}
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font: 700 20px 'Spartan', sans-serif;
+  color: white;
+  margin-right: 140px;
+}
+
+h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  font: 700 20px 'Spartan', sans-serif;
+  color: white;
+  margin-left: 140px;
+}
+
+#superior{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 40px 'Spartan', sans-serif;
+  
+}
+
+.incontainer{
+  border-style: none;
+  padding: 15px 15px;
+  
+}
+
+.subbutton{
+
+  background-color:hsl(223, 31%, 20%);
+  margin-top: 15px;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  
+}
+button {
+  width: 70px;
+  height: 45px;
+  margin: 10px;
+  border-radius: 10px;
+  font: 700 20px 'Spartan', sans-serif;
+  background-color: aliceblue;
+  color: hsl(221, 14%, 31%);
+  box-shadow: 0 1px hsl(28, 16%, 65%);
+  cursor: pointer;
+}
+
+.buttonss{
+  width: 169px;
+  border-radius: 10px;
+  border-style: inset;
+  
+}
+
+p {
+  background-color: hsl(224, 36%, 15%);
+  border-color: hsl(224, 36%, 15%);
+  color: aliceblue;
+  padding: 25px;
+  width: 410px;
+  margin: auto;
+  text-align: right;
+  border-style: inset;
+  border-radius: 10px;
+}
+
+.del{
+background-color: hsl(225, 21%, 49%);
+color: aliceblue;
+}
+
+#reset{
+  background-color: hsl(225, 21%, 49%);
+  color: aliceblue;
+}
+
+#igual{
+  background-color:hsl(6, 63%, 50%);
+  color: aliceblue;
+}
+
+
+

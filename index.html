@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<br lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  <header>
+    <br>
+    
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Laura Leite</a>.
+      </div>
+  </header>
+  <div id="superior"> 
+    <h1>Calc</h1>
+    <h2>Theme</h2>
+  </div>
+
+  <div class="container">
+
+  <div class="incontainer">
+  <div>
+      <p id="output"></p>
+  <div class="subbutton">
+            </br>
+      <button onclick="numero('7')">7</button>
+      <button onclick="numero('8')">8</button>
+      <button onclick="numero('9')">9</button>
+      <button class="del">Del</button>
+            </br>
+      <button onclick="numero('4')">4</button>
+      <button onclick="numero('5')">5</button>
+      <button onclick="numero('6')">6</button>
+      <button onclick="numero('+')">+</button>
+            </br>
+      <button onclick="numero('1')">1</button>
+      <button onclick="numero('2')">2</button>
+      <button onclick="numero('3')">3</button>
+      <button onclick="numero('-')">-</button>
+            </br>
+      <button>.</button>
+      <button onclick="numero('0')">0</button>
+      <button onclick="numero('/')">/</button>
+      <button onclick="numero('*')">x</button>
+            </br>
+      <button class="buttonss" id="reset" onclick="clean()">Reset</button>
+      <button class="buttonss" id="igual">=</button>  
+  </div>
+  </div>
+  </div>
+  </div>
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+
+</html>
